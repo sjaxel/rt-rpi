@@ -1,0 +1,76 @@
+# Local development environment files
+*scratchpad.py
+*main_dev.py
+
+docs/references/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.swp
+*.swo
+.Python
+.env
+.venv/
+venv/
+build/
+dist/
+*.log
+*.sqlite3
+.DS_Store
+*.coverage
+.coverage.*
+.cache/
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+# VS Code
+.vscode/
+# Jupyter
+.ipynb_checkpoints/
+# OS
+Thumbs.db
+Desktop.ini
+# Temporary files
+temp/
+tmp/
+# Test output
+htmlcov/
+# C extensions
+*.c
+*.cpp
+*.h
+*.o
+*.obj
+*.dll
+*.dylib
+*.a
+*.lib
+# System files
+*.exe
+*.out
+*.app
+*.msi
+*.bat
+*.sh
+*.ps1
+# Kernel config
+.config.old
+.config
+# Node
+node_modules/
+# Misc
+*.manifest
+*.spec
+*.lock
+*.log
+*.pid
+*.seed
+*.pid.lock

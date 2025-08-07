@@ -19,7 +19,6 @@ from .com import Endpoint
 _mp_context_set = False
 
 def init():
-    print("Initializing multiprocessing context...")
     global _mp_context_set
     if not _mp_context_set:
         multiprocessing.set_start_method('spawn', force=True)
